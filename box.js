@@ -4,6 +4,8 @@ class Box extends BaseClass {
     this.Visiblity = 255;
   }
   display(){
+
+    
     if(this.body.speed < 3){
       super.display();
      }

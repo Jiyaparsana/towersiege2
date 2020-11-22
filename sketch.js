@@ -102,7 +102,8 @@ function mouseReleased(){
 
 function keyPressed(){
   if(keyCode === 32){
-    slingShot.attach(polygon.body)
+    Matter.Body.setPosition(polygon.body,{x:50, y:200})
+    slingshot.attach(polygon.body)
     
   }
 }
